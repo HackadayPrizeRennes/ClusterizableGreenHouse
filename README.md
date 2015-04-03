@@ -9,18 +9,18 @@ Réalisation d'un potager individuel extensible, clusterizable automatisé. Auto
 ## Tâches réalisées
 
 ## Tâche à faire
-[ ] Modélisation de la serre - Responsable : Indéfini
-[ ] Partie électronique - Responsable : Indéfini
-	[ ] Ventilateur
-	[ ] Changement de luminosité en fonction de la croissance de la plante
-	[ ] Detection de la taille de la plante (temps fixe, télémètre laser/son, reconnaissance vidéo ?)
-	[ ] Temperature/humidité (DHT22 ?)
-	[ ] Sonde PH
-	[ ] Electroconductivité
-	[ ] testeur TDS (Total des Solides Dissous)
-[ ] Partie Software - Responsable : Indéfini
-[ ] Apport en eau & nutriments (electrovanne ou pompe ?) - Responsable : Indéfini
-[ ] Récupération de radis, cresson et terre - Responsable : Indéfini
+- [ ] Modélisation de la serre - Responsable : Indéfini
+- [ ] Partie électronique - Responsable : Indéfini
+     - [ ] Ventilateur
+     - [ ] Changement de luminosité en fonction de la croissance de la plante
+     - [ ] Detection de la taille de la plante (temps fixe, télémètre laser/son, reconnaissance vidéo ?)
+     - [ ] Temperature/humidité (DHT22 ?)
+     - [ ] Sonde PH
+     - [ ] Electroconductivité
+     - [ ] testeur TDS (Total des Solides Dissous)
+- [ ] Partie Software - Responsable : Indéfini
+- [ ] Apport en eau & nutriments (electrovanne ou pompe ?) - Responsable : Indéfini
+- [ ] Récupération de radis, cresson et terre - Responsable : Indéfini
 
 # English Version
 Soon
