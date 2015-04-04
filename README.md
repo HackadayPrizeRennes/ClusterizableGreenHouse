@@ -8,7 +8,7 @@ Réalisation d'un potager individuel extensible, clusterizable automatisé. Auto
 
 ## Tâches réalisées
 
-## Tâche à faire
+## Tâches à faire
 - [ ] Modélisation de la serre - Responsable : Indéfini
      - [ ] Taille minimale (2 blocs de base. Un de controle, un de potager. Dimensions : 15x15)
      - [ ] Matière ?
