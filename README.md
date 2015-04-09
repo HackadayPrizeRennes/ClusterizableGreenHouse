@@ -1,4 +1,4 @@
-# ClusterizableGreenHouse
+﻿# ClusterizableGreenHouse
 An open source clusterizable greenhouse for indoor growing
 
 # Version française (English version at bottom)
@@ -20,6 +20,8 @@ Réalisation d'un potager individuel extensible, clusterizable automatisé. Auto
      - [ ] Sonde PH
      - [ ] Electroconductivité
      - [ ] testeur TDS (Total des Solides Dissous)
+     - [ ] un écran LCD du type sheild LCD keypad (http://stores.ebay.fr/OpenSpares)
+     - [ ] Capteur de lumiere photosensible (http://stores.ebay.fr/OpenSpares)
 - [ ] Partie Software - Responsable : Indéfini
 - [ ] Apport en eau & nutriments (electrovanne ou pompe ?) - Responsable : Indéfini
 - [ ] Récupération de radis, cresson et terre - Responsable : Indéfini
