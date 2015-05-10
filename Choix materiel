@@ -1,0 +1,56 @@
+
+
+1. Irrigation: 
+débit très faible suffisant (goutte à goutte)
+
+1.1 Pompe
+réservoir plus bas => plus simple
+
+Pompe classique:
+  Débit plusieurs L/min => trop ?
+  Utilisée dans les fontaines de déco
+  http://www.robotshop.com/eu/en/6v-mini-water-pump.html : 7.6e
+
+Pompe à engrenages:
+  Faible débit, simple, pas cher
+  http://fr.wikipedia.org/wiki/Pompe_%C3%A0_engrenages
+  http://www.robotshop.com/eu/en/5v-micro-liquid-gear-pump.html : 200mL/min, 9.23e
+
+Pompe péristaltique:
+  Faible débit, dosage très précis (mais en a t-on vraiment besoin ?), prix élevé, maintenance pour remplacement du tube ?
+  Utilisé dans le médical
+  http://en.wikipedia.org/wiki/Peristaltic_pump
+  http://www.robotshop.com/eu/en/peristaltic-liquid-pump-silicone-tubing.html : 25.54e
+  
+1.2 Electrovanne
+Réservoir en hauteur => plus contraignant, risque de fuite si problème d'étanchéité
+  http://www.gotronic.fr/art-electrovanne-12-vcc-droite-ev12v-19587.htm : 10.45e
+
+
+
+2. Capteur humidité terre
+
+Capteur intégré clé en main:
+  http://www.seeedstudio.com/depot/Grove-Moisture-Sensor-p-955.html (environ 5-6euros)
+Principe très simple: effet du courant qui passe dans la terre qui entre dans la base dans transistor NPN.
+
+Peut-on faire les mesures de résistivité nous même avec un microcontrolleur ?
+
+Mesures faites en comparant:
+ - "moisture sensor" de SeedStudio
+ - mesures directes avec un ADC sur un pont de résistance: 10kohm et résistance de la terre
+ 
+                      Moisture sensor       Rladder         Rground
+                      (digital value,       (R=10khm,       (kohm)
+                      full scale 1023,      files cuivre
+                      Vmax 5V)              distans 2cm)
+                      
+sol humide            160                   850 (4.15V)     48
+sol très humide       320                   660 (3.23V)     18
+immergé 2mm           480                   540 (2.64V)     12
+immergé 1cm           650                   348 (1.7V)      5.2
+pot de fleur arrosé                         258 (1.26V)     3.4
+
+=> on peut se passer d'un module externe et faire les mesures en direct, avec simplement 2 fils de cuivre => gratuit ;-)
+
+
